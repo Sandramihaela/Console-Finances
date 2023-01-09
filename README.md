@@ -1,6 +1,6 @@
 # Unit 4 Challenge: Console Finances
 
-## Console Finances 🏦
+## Console Finances 
 
 Console application to show the financial records of a company.
 
