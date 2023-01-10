@@ -24,7 +24,7 @@ var finances = [
 ['Nov-2011', 132003],
 ['Dec-2011', 309978],
 ['Jan-2012', -755566],
-['Feb-2012', 1170593],
+['Feb-2012', 1926159],
 ['Mar-2012', 252788],
 ['Apr-2012', 1151518],
 ['May-2012', 817256],
@@ -43,7 +43,7 @@ var finances = [
 ['Jun-2013', 872480],
 ['Jul-2013', 789480],
 ['Aug-2013', 999942],
-['Sep-2013', -1196225],
+['Sep-2013', -2196167],
 ['Oct-2013', 268997],
 ['Nov-2013', -687986],
 ['Dec-2013', 1150461],
@@ -110,12 +110,12 @@ average = totalNet / finances.length;
 average = average.toFixed(2);
 console.log("The average of the changes: $" + average);
 
-// Displaying the greatest increase in profits -> researched how to to sort multidimensional arrays :)
+// Displaying the greatest increase in profits (multidimensional arrays)
 sorted = finances.sort((a, b) => b[1]-a[1]);
 increase = sorted[0];
 console.log(`The greatest increase in profits: ${increase[0]} ($${increase[1]})`);
 
-// Displaying the greatest decrease in profits:
+// Displaying the greatest decrease in profits
 sorted = finances.sort((a, b) => a[1]-b[1]);
 decrease = sorted[0];
 console.log(`The greatest decrease in profits: ${decrease[0]} ($${decrease[1]})`)
